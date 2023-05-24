@@ -10,7 +10,7 @@ const Jumbotron = () => {
         nostrum fuga sunt repudiandae consequuntur ea odit vero. Dolore.
       </p>
       <a className="btn btn-primary btn-lg" href="#" role="button">
-        Learn more
+        Call to action!
       </a>
     </div>
   );
