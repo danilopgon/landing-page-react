@@ -41,7 +41,7 @@ const Home = () => {
             <Jumbotron />
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
               {cardContent.map((card) => {
-                return <Card title={card.title} image={card.image} description={card.description} buttonText={card.buttonText} />
+                return <Card {...card} />
               })}
             </div>
             <Footer />
